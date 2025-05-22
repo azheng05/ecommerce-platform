@@ -12,7 +12,7 @@ export const Navbar = () => {
     <div className='navbar'>
         <div className="nav-logo">
             <img src={logo} alt="" />
-            <p>Koshka Crochets</p>
+            <p>Mimi Crochets</p>
         </div>
         <ul className="nav-menu">
             {/*When you click on a section, it will underline it*/}
