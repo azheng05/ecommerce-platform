@@ -12,7 +12,7 @@
 }
 
 .nav-logo p{
-    color: #171717;
+    color: #b28aeb;
     font-size: 38px;
     font-weight: 600;
 }
@@ -46,7 +46,7 @@
     width: 80%;
     height: 3px;
     border-radius: 10px;
-    background: #FF4141;
+    background: #F0A8D0;
 }
 
 .nav-login-cart {
