@@ -8,6 +8,7 @@ const Newsletter = () => {
         <p>Subscribe to get updates on restocks, new plushies, and exclusive offers 💌 </p>
         <div>
             <input type='email' placeholder='Your email'/>
+            <button>Subscribe</button>
         </div>
     </div>
   )

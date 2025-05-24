@@ -23,7 +23,7 @@
     font-size: 20px;
 }
 
-.newletter div {
+.newsletter div {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,7 +34,7 @@
     border: 1px solid #e3e3e3;
 }
 
-.newletter input {
+.newsletter input {
     width: 500px;
     margin-left: 30px;
     border: none;
@@ -44,7 +44,7 @@
     font-size: 16px;
 }
 
-.newletter button {
+.newsletter button {
     width: 210px;
     height: 70px;
     border-radius: 80px;
