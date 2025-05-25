@@ -7,8 +7,8 @@ import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
 import Product from './Pages/Product';
 import Footer from './Components/Footer/Footer';
-import plushies_bannner from './Components/Assets/banner_mens.png'
-import accessories_banner from './Components/Assets/banner_women.png'
+import plushies_bannner from './Components/Assets/banner_women.png'
+import accessories_banner from './Components/Assets/banner_mens.png'
 import keychains_banner from './Components/Assets/banner_kids.png'
 
 
