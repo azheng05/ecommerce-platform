@@ -7,6 +7,10 @@ import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
 import Product from './Pages/Product';
 import Footer from './Components/Footer/Footer';
+import plushies_bannner from './Components/Assets/banner_mens.png'
+import accessories_banner from './Components/Assets/banner_women.png'
+import keychains_banner from './Components/Assets/banner_kids.png'
+
 
 function App() {
   return (
@@ -15,9 +19,9 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Shop/>}/>
-        <Route path='/plushies' element={<ShopCategory category="plushies"/>}/>
-        <Route path='/accessories' element={<ShopCategory category="accessories"/>}/>
-        <Route path='/keychains' element={<ShopCategory category="keychains"/>}/>
+        <Route path='/plushies' element={<ShopCategory banner={plushies_bannner} category="plushies"/>}/>
+        <Route path='/accessories' element={<ShopCategory banner={accessories_banner} category="accessories"/>}/>
+        <Route path='/keychains' element={<ShopCategory banner={keychains_banner} category="keychains"/>}/>
         <Route path='/product' element={<Product/>}>
           <Route path=':productId' element={<Product/>}/>
         </Route>
