@@ -1,14 +1,14 @@
 import React from 'react'
-import './Breadcrum.css'
+import './Breadcrumb.css'
 import { IoIosArrowForward } from "react-icons/io";
 
-const Breadcrum = (props) => {
+const Breadcrumb = (props) => {
   const {product} = props;
   return (
-    <div className="breadcrum">
+    <div className="breadcrumb">
         HOME <IoIosArrowForward/> SHOP <IoIosArrowForward/> {product.category} <IoIosArrowForward/> {product.name}
     </div>
   )
 }
 
-export default Breadcrum
+export default Breadcrumb
