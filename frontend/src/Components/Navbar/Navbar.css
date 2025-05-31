@@ -16,6 +16,9 @@
     font-size: 38px;
     font-weight: 600;
 }
+.nav-logo p:hover{
+    cursor: pointer;
+}
 
 .nav-logo img {
     max-width: 100%;
