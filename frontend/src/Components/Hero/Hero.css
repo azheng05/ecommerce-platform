@@ -1,9 +1,10 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 .hero {
-    height: 65vh;
+    height: auto;
     background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
     display: flex;
     animation: fadeInLeft 1s ease forwards;
@@ -21,14 +22,14 @@
 
 .hero-left h2 {
     color: #ffffff;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 600;
     background: #e584ea;
-    padding: 20px 20px;
+    padding: 30px 30px;
     border-radius: 75px;
     display: inline-block;
     text-align: center;
-    width: 25vh;
+    width: fit-content;
 }
 
 .hero-left p {
@@ -37,21 +38,17 @@
     font-weight: 700;
 }
 
-.hero-hand-icon img {
-    width: 105px; 
-}
-
 .hero-latest-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    width: 310px;
-    height: 70px;
+    width: fit-content;
     border-radius: 75px;
     margin-top: 30px;
     background: #ff4141;
     color: white;
+    padding: 20px 20px;
     font-size: 22px;
     font-weight: 500;
 }
@@ -64,7 +61,7 @@
 }
 
 .hero-right img {
-    max-width: 60%;
+    max-width: 70%;
     max-height: 60%;
     object-fit: contain;
 }

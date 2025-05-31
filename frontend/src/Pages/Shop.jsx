@@ -10,7 +10,6 @@ export const Shop = () => {
     <div>
         <Hero/>
         <Popular/>
-        <Offers/>
         <NewProducts/>
         <Newsletter/>
     </div>

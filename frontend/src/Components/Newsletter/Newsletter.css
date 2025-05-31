@@ -1,14 +1,14 @@
 .newsletter {
-    width: 65%;
-    height: 40vh;
+    width: 60%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: auto;
-    padding: 0px 140px;
-    margin-bottom: 150px;
-    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    padding: 80px 200px;
+    margin-bottom: 60px;
+    background: #b28aeb48;
     gap: 30px;
 }
 
@@ -48,7 +48,7 @@
     width: 210px;
     height: 70px;
     border-radius: 80px;
-    background: black;
+    background: #b28aebd7;
     color: white;
     font-size: 16px;
     cursor: pointer;
