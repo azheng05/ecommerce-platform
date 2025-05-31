@@ -10,9 +10,6 @@ import p9_img from "./product_9.png";
 import p10_img from "./product_10.png";
 import p11_img from "./product_11.png";
 import p12_img from "./product_12.png";
-
-import headband_green from "./ProductImages/prod_headband_green.png"
-
 import p14_img from "./product_14.png";
 import p15_img from "./product_15.png";
 import p16_img from "./product_16.png";
@@ -37,22 +34,31 @@ import p34_img from "./product_34.png";
 import p35_img from "./product_35.png";
 import p36_img from "./product_36.png";
 
+
+/*Accessories*/
+import headband_green from "./ProductImages/prod_headband_green.png"
+
+/*Plushies*/
+import bubbleDragon from "./ProductImages/prod_bubblesdragon.png"
+import blueberryBear from "./ProductImages/prod_blueberrybear.png"
+
+
 let all_product = [
   {
     id: 1,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "plushies",
-    image: p1_img,
-    new_price: 50.0,
-    old_price: 80.5,
+    name: "Bubbles the Dragon",
+    category: "Plushies",
+    image: bubbleDragon,
+    new_price: 15,
+    old_price: 20
   },
   {
     id: 2,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "plushies",
-    image: p2_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    name: "Blueberry the Bear",
+    category: "Plushies",
+    image: blueberryBear,
+    new_price: 12,
+    old_price: 15
   },
   {
     id: 3,
