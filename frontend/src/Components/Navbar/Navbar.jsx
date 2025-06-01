@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../Assets/ShopImages/CatLogo.png'
-import cart_icon from '../Assets/cart_icon.png'
 import { Link } from 'react-router-dom'
+import { FiShoppingCart } from "react-icons/fi";
 
 export const Navbar = () => {
 
@@ -24,7 +24,7 @@ export const Navbar = () => {
         </ul>
         <div className="nav-login-cart">
             <Link to="/login"><button>Login</button></Link>
-            <Link to='/cart'><img src={cart_icon} alt="" /></Link>
+            <Link to='/cart'><FiShoppingCart className="cart-icon"/></Link>
             <div className="nav-cart-count">
                 0
             </div>

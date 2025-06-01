@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './ProductDisplay.css'
 import { MdStarBorder, MdStar } from "react-icons/md";
+import { ShopContext } from '../../Context/ShopContext';
 
 const ProductDisplay = (props) => {
     const {product} = props;

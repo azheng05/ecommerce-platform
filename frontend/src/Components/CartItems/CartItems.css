@@ -1,0 +1,113 @@
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 170px;
+    padding: 20px;
+    background-color: #fef2f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(216, 161, 249, 0.2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cart-items-format {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    cursor: default;
+}
+
+.cart-items-format img.carticon-product-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-items-quantity {
+    padding: 6px 5px;
+    width: 55px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: text;
+}
+
+.cart-items hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 10px 0;
+}
+
+.cart-items-format svg {
+    font-size: 20px;
+    color: #cc3b3b;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.cart-items-format svg:hover {
+    transform: scale(1.2);
+    color: #a22222;
+}
+
+/* Styling for Checkout Section */
+.cart-items.down {
+    margin: 30px auto 30px auto;
+    background-color: white;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cart-items-total {
+    width: 320px;
+    background-color: #ffe1f0;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(255, 192, 203, 0.25);
+}
+
+.cart-items-total h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #b28aebd7;
+}
+
+.cart-items-total-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.cart-items-total-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.cart-items-total button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #b28aebd7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.cart-items-total button:hover {
+    background-color: #906dc0d7;
+}
