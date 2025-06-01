@@ -11,10 +11,9 @@ const DescriptionBox = () => {
             <div className="description-box-navbox fade">
                 Reviews (122)
             </div>
-            <div className="description-box-description">
-                <p>Description yada yada yada</p>
-                <p>More description yada yada yada</p>
-            </div>
+        </div>
+        <div className="description-box-description">
+            <p>Handcrafted with soft cotton yarn, this headband is lightweight, breathable, and gentle on your skin. It features tie ends that allow you to adjust the fit easily, wrapping comfortably around your head without any tightness or slipping. A perfect blend of function and comfort!</p>
         </div>
     </div>
   )

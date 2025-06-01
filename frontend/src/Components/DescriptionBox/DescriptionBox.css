@@ -1,3 +1,42 @@
 .description-box {
     margin: 50px 170px;
-}
+    font-family: Arial, sans-serif;
+  }
+  
+  .description-box-navigator {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .description-box-navbox {
+    padding: 12px 24px;
+    font-weight: 600;
+    color: #444;
+    border: 2px solid transparent;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #e1b0ff67;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .description-box-navbox:hover {
+    background-color: #f0e8f8;
+    color: #7a529b;
+  }
+  
+  .description-box-navbox.fade {
+    color: #999;
+  }
+  
+  .description-box-description {
+    padding: 20px;
+    background: #e1b0ff67;
+    border: 2px solid #ccc;
+    border-radius: 0 0 8px 8px;
+    line-height: 1.6;
+    color: #333;
+  }
+  

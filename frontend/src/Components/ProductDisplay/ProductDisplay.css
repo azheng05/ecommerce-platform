@@ -1,6 +1,6 @@
 .productdisplay {
     display: flex;
-    margin: 100px 170px;
+    margin: 50px 170px;
 }
 .productdisplay-img {
     flex: 1;
