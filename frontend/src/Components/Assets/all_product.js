@@ -62,11 +62,11 @@ let all_product = [
   },
   {
     id: 3,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "plushies",
-    image: p3_img,
-    new_price: 60.0,
-    old_price: 100.5,
+    name: "Green Mesh Headband",
+    category: "Accessories",
+    image: headband_green,
+    new_price: 8,
+    old_price: 15,
   },
   {
     id: 4,
@@ -139,14 +139,6 @@ let all_product = [
     image: p12_img,
     new_price: 85.0,
     old_price: 120.5,
-  },
-  {
-    id: 13,
-    name: "Green Mesh Headband",
-    category: "Accessories",
-    image: headband_green,
-    new_price: 8,
-    old_price: 15,
   },
   {
     id: 14,
