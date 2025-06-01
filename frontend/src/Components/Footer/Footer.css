@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 10px;
     padding-top: 20px;
     background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
 }
@@ -64,7 +64,7 @@
     width: 100%;
     margin-bottom: 30px;
     color: #1a1a1a;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .footer-copyright hr {
