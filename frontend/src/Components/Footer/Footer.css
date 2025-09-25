@@ -28,6 +28,7 @@
 
 .footer-links {
     display: flex;
+    justify-content: center;
     list-style: none;
     gap: 50px;
     color: #252525;
@@ -67,10 +68,24 @@
     font-size: 15px;
 }
 
-.footer-copyright hr {
-    width: 80%;
+hr {
+    width: 50%;
     border: none;
     border-radius: 10px;
     height: 3px;
     background: #c7c7c7;
+}
+
+@media (max-width: 650px) {
+    .footer-copyright {
+        font-size: 13px;
+        gap: 20px;
+    }
+
+    .footer-links {
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        font-size: 15px;
+    }
 }

@@ -24,10 +24,10 @@ const Footer = () => {
             <div className="footer-icons-container">
                 <img src={pinterest_icon} alt=""/>
             </div>
-            <div className="footer-copyright">
-                <hr/>
-                <p>Copyright @ 2025 - All Rights Reserved.</p>
-            </div>
+        </div>
+        <hr/>
+        <div className="footer-copyright">
+            <p>Copyright @ 2025 - All Rights Reserved.</p>
         </div>
     </div>
   )
