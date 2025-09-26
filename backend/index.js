@@ -11,7 +11,6 @@ app.use(express.json());
 app.use(cors());
 
 // Database connection with MongoDB
-mongoose.connect("mongodb+srv://azheng2204:139210389012890482190@cluster0.3e2wdjv.mongodb.net/e-commerce");
 
 // API Creation
 
